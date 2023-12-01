@@ -1,0 +1,54 @@
+#langList {
+    display: flex;
+    gap: 12px;
+}
+
+.langIconText {
+    z-index: 1;
+}
+
+.langIcon {
+    border-radius: 50%;
+    height: 32px;
+    width: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-weight: bold;
+    position: relative;
+}
+
+.langIcon::after {
+    content: "";
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.25);
+  }
+
+.langIcon:hover {
+    opacity: 0.8;
+}
+
+.langIcon:active {
+    opacity: 0.7;
+}
+
+@media screen and (max-width: 767px) {
+    #langList {
+        gap: 6px;
+    }
+
+    .langIcon {
+    height: 24px;
+    width: 24px;
+    font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 319px) {
+}

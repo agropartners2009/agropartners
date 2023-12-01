@@ -1,0 +1,70 @@
+.listItem {
+    background-color: rgba(0, 0, 0, 0.25);
+    position: relative;
+    border-radius: 48px 0 48px 0;
+    padding: 24px;
+    padding-top: 48px;
+    border: 2px  solid white;
+    font-weight: bold;
+
+}
+
+.listItemTitle {
+    background: #639a50;
+    font-weight: bold;
+    width: 480px;
+    padding: 12px;
+    height: 64px;
+    border-radius: 12px;
+    position: absolute;
+    top: -32px;
+    left: 24px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.deleteButton {
+    position: absolute;
+    background-color: crimson;
+    padding: 12px;
+    border-radius: 12px;
+    right: 6px;
+    top: 6px;
+}
+
+.deleteButton:hover {
+    opacity: 0.8;
+}
+
+.deleteButton:active {
+    opacity: 0.7;
+}
+
+@media screen and (max-width: 819px) {
+    .listItem{
+        font-size: 14px;
+    }
+
+    .listItemTitle {
+        max-width: 320px;
+        height: 48px;
+        top: -24px;
+    }
+
+}
+
+@media screen and (max-width: 479px) {
+    .listItem{
+        font-size: 12px;
+    }
+
+    .listItemTitle {
+        max-width: 240px;
+        right: 6px;
+        height: 40px;
+        border-radius: 8px;
+        top: -20px;
+        justify-content: center;
+    }
+}

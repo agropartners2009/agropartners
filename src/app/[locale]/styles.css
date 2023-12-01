@@ -1,0 +1,122 @@
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+}
+
+#homePage {
+    flex: auto;
+}
+
+#introContainer {
+    height: calc(100vh - 64px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    text-align: center;
+}
+
+#mainTitle {
+    display: flex;
+    margin-bottom: 8px;
+    animation: fadeIn 1s ease-in-out;
+}
+
+#intro {
+    animation: fadeIn 3s ease-in-out;
+}
+
+#AGRO {
+    font-size: 10rem;
+    font-weight: bold;
+    line-height: 10rem;
+}
+
+#col {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding-bottom: 16px;
+}
+
+#partners {
+    font-size: 4rem;
+    font-weight: bold;
+    line-height: 4rem;
+}
+
+#num {
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 3rem;
+    color: #639a50;
+}
+
+@media screen and (max-width: 767px) {
+    #AGRO {
+        font-size: 8rem;
+        line-height: 8rem;
+    }
+    
+    #col {
+        padding-bottom: 8px;
+    }
+    
+    #partners {
+        font-size: 3rem;
+        line-height: 3rem;
+    }
+    
+    #num {
+        font-size: 2rem;
+        line-height: 2rem;
+    }
+}
+
+@media screen and (max-width: 639px) {
+    #AGRO {
+        font-size: 4rem;
+        line-height: 4rem;
+    }
+    
+    #col {
+        padding-bottom: 4px;
+    }
+    
+    #partners {
+        font-size: 2rem;
+        line-height: 2rem;
+    }
+    
+    #num {
+        font-size: 1rem;
+        line-height: 1rem;
+    }
+}
+
+@media screen and (max-width: 319px) {
+    #AGRO {
+        font-size: 2rem;
+        line-height: 2rem;
+    }
+    
+    #col {
+        padding-bottom: 4px;
+    }
+    
+    #partners {
+        font-size: 1rem;
+        line-height: 1rem;
+    }
+    
+    #num {
+        font-size: 1rem;
+        line-height: 1rem;
+    }
+}
