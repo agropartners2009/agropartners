@@ -18,8 +18,8 @@
 
 #shareholderPage {
     padding-top: 36px;
+    padding-bottom: 36px;
     display: flex;
-    flex-direction: column;
     gap: 48px;
 }
 
@@ -31,20 +31,15 @@
     padding-top: 48px;
     border: 2px  solid white;
     font-weight: bold;
+    flex: 1;
 
-}
-
-.serviceCard:nth-child(1){
     animation: slideInFromBottom1 0.5s ease-in;
-}
-.serviceCard:nth-child(2){
-    animation: slideInFromBottom2 1s ease-in;
 }
 
 .serviceCardTitle {
     background: #639a50;
     font-weight: bold;
-    width: 480px;
+    width: 240px;
     padding: 12px;
     height: 64px;
     border-radius: 12px;
@@ -77,6 +72,17 @@ ul {
 }
 
 @media screen and (max-width: 819px) {
+    #shareholderPage {
+        flex-direction: column;
+    }
+
+    .serviceCard:nth-child(1){
+        animation: slideInFromBottom1 0.5s ease-in;
+    }
+    .serviceCard:nth-child(2){
+        animation: slideInFromBottom2 1s ease-in;
+    }
+
     .serviceCard{
         font-size: 14px;
     }

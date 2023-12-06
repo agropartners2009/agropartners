@@ -4,14 +4,3 @@
     gap: 48px;
     margin-top: 48px;
 }
-
-.listItem {
-    background-color: rgba(0, 0, 0, 0.25);
-    position: relative;
-    border-radius: 48px 0 48px 0;
-    padding: 24px;
-    padding-top: 48px;
-    border: 2px  solid white;
-    font-weight: bold;
-
-}

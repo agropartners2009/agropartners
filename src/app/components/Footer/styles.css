@@ -3,10 +3,11 @@ footer{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 12px;
-    background-color: rgba(255, 255, 255, 0.25);
+    padding-top: 24px;
+    background-color: rgba(99, 154, 80, 0.8);
     padding: 12px;
-    gap: 12px
+    gap: 12px;
+    color: white;
 }
 
 #contactCard {

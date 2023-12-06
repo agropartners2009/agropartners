@@ -8,13 +8,6 @@ import { getVacancies } from "../api";
 
 export type VacancyType = ItemType & {};
 
-// const mockVacancies: VacancyType[] = [
-//   {
-//     title: "технік-лаборант",
-//     body: "На роботу потрібен технік-лаборант  з досвідом роботи для проведення лабораторних досліджень с/г продукції. Заробітна плата висока. Звертатися за номером телефону: 099 179 73 06 в робочі дні з 08:00 до 17:00.",
-//   },
-// ];
-
 const VacanciesPage: React.FC = () => {
   const locale = useLocale();
   const [vacancies, setVacancies] = useState<VacancyType[]>([]);

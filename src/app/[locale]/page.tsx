@@ -22,7 +22,8 @@ const Home: React.FC = () => {
             <span id="partners">{t("partners")}</span>
           </div>
         </div>
-        <span id="intro">{t("intro")}</span>
+        <span className="intro">{t("intro")}</span>
+        <span className="intro">{t("intro_1")}</span>
       </div>
       <NextIntlClientProvider locale={locale} messages={messages}>
         <InfoList />
