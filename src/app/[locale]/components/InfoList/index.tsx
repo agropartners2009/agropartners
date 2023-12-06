@@ -28,7 +28,7 @@ const InfoList: React.FC = () => {
           className="infoImg"
           style={{
             background: `url(${pig.src})`,
-            backgroundPosition: "left 310px top 0px",
+            backgroundPosition: "left 280px top 0px",
             backgroundSize: "cover",
           }}
         />
@@ -43,7 +43,7 @@ const InfoList: React.FC = () => {
           className="infoImg"
           style={{
             background: `url(${seeds.src})`,
-            backgroundPosition: "left 320px top 0px",
+            backgroundPosition: "left 300px top 0px",
             backgroundSize: "cover",
           }}
         />
