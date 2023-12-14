@@ -1,5 +1,6 @@
 "use client";
 
+import "./styles.css";
 import { useEffect, useState } from "react";
 import List from "@/app/components/List";
 import { ItemType } from "@/app/components/ListItem";
@@ -20,7 +21,8 @@ const VacanciesPage: React.FC = () => {
   }, [locale]);
 
   return (
-    <div id="vacanciesPage">
+    <div id="vacanciesPage" className="defaultPage">
+      <div id="vacanciesPageBack" />
       <List items={vacancies} />
     </div>
   );

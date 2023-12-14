@@ -13,7 +13,7 @@ const Home: React.FC = () => {
   const messages = useMessages();
 
   return (
-    <div id="homePage">
+    <div id="homePage" className="defaultPage">
       <div id="introContainer">
         <div id="mainTitle">
           <div id="AGRO">{t("AGRO")}</div>

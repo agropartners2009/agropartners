@@ -20,7 +20,7 @@ const NewsPage: React.FC = () => {
   }, [locale]);
 
   return (
-    <div id="newsPage">
+    <div id="newsPage" className="defaultPage">
       <List items={news} />
     </div>
   );

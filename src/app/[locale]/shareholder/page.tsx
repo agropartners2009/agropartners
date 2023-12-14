@@ -6,7 +6,7 @@ const ShareholderPage: React.FC = () => {
   const t = useTranslations();
 
   return (
-    <div id="shareholderPage">
+    <div id="shareholderPage" className="defaultPage">
       <div className="serviceCard">
         <div className="serviceCardTitle">
           <Image src="/logo.svg" alt="logo" width={24} height={24} />

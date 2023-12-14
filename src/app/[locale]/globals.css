@@ -32,20 +32,35 @@ body::after {
   z-index: -1;
 }
 
-body > * {
+header, footer {
+  padding-left: 120px;
+  padding-right: 120px;
+}
+
+.defaultPage {
   padding-left: 120px;
   padding-right: 120px;
 }
 
 @media screen and (max-width: 819px) {
-  body > * {
+  header, footer {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+
+  .defaultPage {
     padding-left: 60px;
     padding-right: 60px;
   }
 }
 
 @media screen and (max-width: 479px) {
-  body > * {
+  header, footer {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+
+  .defaultPage {
     padding-left: 12px;
     padding-right: 12px;
   }

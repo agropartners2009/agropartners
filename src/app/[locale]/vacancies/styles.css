@@ -1,0 +1,35 @@
+/* #vacanciesPage {
+    background: url(../../../../public/worker.jpeg);
+    flex: auto;
+    background-size: cover;
+    position: relative;
+}
+
+#vacanciesPage::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.25);
+} */
+#vacanciesPage {
+    position: relative;
+    flex: auto;
+}
+#vacanciesPageBack {
+    position: absolute;
+    width: 400px;
+    height: calc(100vh - 64px - 198px);
+    right: -20px;
+    background: url(../../../../public/worker.jpeg);
+    background-size: cover;
+    background-position: right 0px;
+}
+
+@media screen and (max-width: 1199px) {
+    #vacanciesPageBack {
+        display: none;
+    }
+}
