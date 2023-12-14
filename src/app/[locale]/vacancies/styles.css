@@ -20,15 +20,15 @@
 }
 #vacanciesPageBack {
     position: absolute;
-    width: 400px;
+    width: 380px;
     height: calc(100vh - 64px - 198px);
-    right: -20px;
+    right: 0;
     background: url(../../../../public/worker.jpeg);
     background-size: cover;
     background-position: right 0px;
 }
 
-@media screen and (max-width: 1199px) {
+@media screen and (max-width: 639px) {
     #vacanciesPageBack {
         display: none;
     }
