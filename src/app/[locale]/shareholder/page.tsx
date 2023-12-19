@@ -38,8 +38,9 @@ const ShareholderPage: React.FC = () => {
         </div>
         <div className="serviceCardBody">
           <p>{t("purchase_parag1")}</p>
+          <p>{t("purchase_parag2")}</p>
           <p>
-            {t("purchase_parag2")}{" "}
+            {t("purchase_parag3")}{" "}
             <span className="phoneNumber">+38 (099) 179 73</span>.
           </p>
         </div>
