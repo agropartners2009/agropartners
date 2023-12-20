@@ -13,7 +13,16 @@ import { Inter } from "next/font/google";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Argopartners",
+  title: "Argopartnery2009",
+  description: "Argopartnery2009",
+  keywords: [
+    "agro",
+    "agropartners",
+    "agropartnery",
+    "agropartnery2009",
+    "agropartners2009",
+    "агропартнери",
+  ],
 };
 
 export default async function RootLayout({
