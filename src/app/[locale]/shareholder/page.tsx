@@ -41,7 +41,7 @@ const ShareholderPage: React.FC = () => {
           <p>{t("purchase_parag2")}</p>
           <p>
             {t("purchase_parag3")}{" "}
-            <span className="phoneNumber">+38 (099) 179 73</span>.
+            <span className="phoneNumber">+38 (099) 179 73 06</span>.
           </p>
         </div>
       </div>
